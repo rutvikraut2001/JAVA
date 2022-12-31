@@ -1,3 +1,5 @@
+		// A simple calculator using Frame 
+
 import java.awt.*;
 import java.util.*;
 import java.awt.event.*;
@@ -64,7 +66,7 @@ class calculator extends Frame implements ActionListener  // Frame is class and 
 			else
 			{
 				int num1,num2;
-				double Res = 0;         //need nitialization
+				double Res = 0;         //need initialization
 
 				num1 = Integer.parseInt(txtnum1.getText());
 				num2 = Integer.parseInt(txtnum2.getText());
